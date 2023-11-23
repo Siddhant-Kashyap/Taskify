@@ -19,7 +19,7 @@ const ChatSection = ({recipient,name}) => {
     }
   ]);
   const [username,setUserName]=useState('___');
-  const socket = io('http://localhost:3001');
+  const socket = io('https://taskifychat.onrender.com');
     useEffect(() => {
         socket.on('chat history',(history) => {
             setMsg(history);

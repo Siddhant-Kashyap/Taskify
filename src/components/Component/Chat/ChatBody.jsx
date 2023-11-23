@@ -10,7 +10,7 @@ import { AvatarGenerator } from 'random-avatar-generator';
 import { userServices } from '../../../Services/Api';
 import ChatSectionHeader from './ChatSectionHeader';
 
-const socket = io('http://localhost:3001');
+const socket = io('https://taskifychat.onrender.com');
 
 const ChatBody = () => {
   const [searchText, setSearchText] = useState('');
