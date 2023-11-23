@@ -1,0 +1,12 @@
+.neon-border::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 17px;
+    background: rgba(196, 196, 242, 0.5);
+    filter: blur(10px); 
+  }
+  
